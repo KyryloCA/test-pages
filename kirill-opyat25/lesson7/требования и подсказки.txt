@@ -1,0 +1,143 @@
+HTML
+
+
+Видео: https://storage.coverr.co/videos/bj00mFrJrBS00X0002uwPBVRZIvXwwB2lJxl?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjEzOTI2MDIwfQ.ARWVvZmpcitZwIpD1vBy_VbOmt2-1vn0SIFwAH5evg0 
+
+Текст: 
+Peach Bakery
+Семейный бизнес, основанный в 1989 году.
+Мы существуем, чтобы сделать вашу жизнь... слаще! ??
+
+Торты:
+ 
+Искушение
+
+Изображение: https://images.unsplash.com/photo-1562440499-64c9a111f713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+
+Клубничное пюре на тонкой песочной основе
+Белый сливочный бисквит
+Ромовая пропитка
+2000 1500 руб.
+Заказать
+
+
+Соблазн
+Изображение: https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60 
+
+Шоколадный бисквит
+Вишневый сироп с ликером
+5 видов вкуснейшего швейцарского шоколада
+2400 1750 руб.
+Заказать
+
+
+Мечта
+Изображение:  https://images.unsplash.com/photo-1535141192574-5d4897c12636?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+
+Мягкий и нежный воздушно-ореховый бисквит
+Пропитка из ванильного крема
+Мнооого фруктов
+2300 1870 руб.
+Заказать
+
+
+Наслаждение
+Изображение: https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+
+Пропитка из крема Шарлотт
+Кусочки груши в карамели
+Нежное суфле на основе сливочного йогурта
+2000 руб.
+Заказать
+
+
+Тайна
+Изображение: https://images.unsplash.com/photo-1585240698295-e14d61c50625?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzd8fGNob2NvbGF0ZSUyMGNha2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
+
+Нежный торт с шоколадным бисквитом
+Сочетание бельгийского шоколада и сливок
+Персиковый конфитюр
+2000 руб.
+Заказать
+
+
+Загадка
+Изображение: https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8Y2FrZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60 
+Воздушный йогуртовый крем по лучшему рецепту Парижа
+Лёгкий бисквит
+Малиновый сироп и много шоколада
+2000 руб.
+Заказать
+
+
+CSS:
+
+body {
+   background-color: #ffffd2;
+}
+
+h1 (Peach Bakery) {
+
+    color:#aa96da;
+    font-family: 'Montserrat', sans-serif;
+}
+
+слова "Семейный бизнес...."{
+
+    color: #a8d8ea;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+слова "Мы существуем, чтобы...."{
+
+    color:#aa96da;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+фоновый цвет элементов {
+
+    background-color: pink;
+
+}
+
+фоновый цвет внутри элементов (желтый) {
+
+    background-color:#ffffd2;
+
+    color: #7c7575;
+
+}
+
+Искушение, Соблазн и другие названия {
+
+    color:#52616b;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+цена {
+
+    color:#52616b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+del {
+
+    background-color: #fbb;
+
+}
+
+ins {
+
+   transform: rotate(-7deg);
+
+}
+
+кнопка ЗАКАЗАТЬ {
+
+    background-color: #aa96da;
+    color: #ffffd2;
+
+ }

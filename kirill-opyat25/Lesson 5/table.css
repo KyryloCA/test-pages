@@ -1,0 +1,76 @@
+.ima{
+				width: 800px;
+				height: 800px;
+				border: 10px solid black;
+
+				 /* filter: grayscale(100%); */
+				border-radius: 50%; 
+				/* height: max-content; */
+				/*position: static;*/
+
+}
+
+.teg{
+				position: absolute;
+				font-size: 50px;
+				color: white;
+				/*  border: 2px solid blue; */
+				top: 80px;
+				left: 250px;
+}
+
+.fact1{
+				position: absolute;
+				font-size: 50px;
+				color: white;
+				/*  border: 2px solid blue; */
+				top: 170px;
+				left: 200px;
+}
+
+.fact2{
+				position: absolute;
+				font-size: 50px;
+				color: white;
+				/*  border: 2px solid blue; */
+				top: 550px;
+				left: 150px;
+}
+.up{
+				font-size: 80px;
+				color: yellow;
+}
+.imo{
+					width: 800px;
+					height: 800px;
+					border-radius: 50%;
+				filter: blur(2px);
+}
+
+
+.test{
+				background-color: blue;
+}
+.opa1{
+				width: 100px;
+				opacity: 1.0;
+
+}
+.opa2{
+				width: 100px;
+				opacity: 0.5;
+
+}
+.opa3{
+				width: 100px;
+				opacity: 0.3;
+
+}
+
+.space1{
+
+}
+.space{
+				position: relative;
+
+}

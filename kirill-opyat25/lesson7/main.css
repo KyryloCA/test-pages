@@ -1,0 +1,18 @@
+#MyVideo{
+  width: 100%;
+}
+body{
+  margin: 0;
+}
+
+ins{
+				font-size: 30px;
+				color: red;
+				text-decoration: none;
+				display: inline-block;
+				transform: rotate(-45deg) ;
+}
+del{
+				font-size: 30px;
+				color: yellow;
+}

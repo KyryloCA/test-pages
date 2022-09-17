@@ -1,0 +1,190 @@
+<!--https://covid.marmoralogistics.com/-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log in - covidQuestionnaire</title>
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/site.css" />
+        <link href="/lib/devextreme/css/dx.common.css" rel="stylesheet" />
+        <link href="/lib/devextreme/css/dx.light.css" rel="stylesheet" />
+        <link href="/css/devextremestyles.css" rel="stylesheet" />
+        <link href="/lib/fontawesome/css/all.css" rel="stylesheet" />
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/site.js?v=ERXvOVSAedskHcHugLwVWzVdJV0aEakECTEi5iYR0uU"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/lib/jszip/dist/jszip.js"></script>
+        <script src="/lib/devextreme/js/dx.all.js"></script>
+        <script src="/lib/devextreme/js/aspnet/dx.aspnet.data.js"></script>
+        <script src="/lib/devextreme/js/aspnet/dx.aspnet.mvc.js"></script>
+        <script src="/lib/fontawesome/js/all.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Covid Questionnaire</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Language/SetLanguage?returnUrl=~%2FIdentity%2FAccount%2FLogin">
+                                    <select
+                                        style="width: 70px; margin-left: 5px;"
+                                        name="culture"
+                                        onchange="this.form.submit();"
+                                        data-val="true"
+                                        data-val-required="The Name field is required."
+                                        id="requestCulture_RequestCulture_UICulture_Name"
+                                    >
+                                        <option value="ar-SA">Arabic (Saudi Arabia)</option>
+                                        <option selected="selected" value="en-US">English (United States)</option>
+                                        <option value="es-ES">Spanish (Spain, International Sort)</option>
+                                        <option value="fa-IR">Persian (Iran)</option>
+                                        <option value="fil-PH">Filipino (Philippines)</option>
+                                        <option value="fr-FR">French (France)</option>
+                                        <option value="ru-RU">Russian (Russia)</option>
+                                        <option value="zh-CN">Chinese (Simplified, China)</option>
+                                    </select>
+                                    <input
+                                        name="__RequestVerificationToken"
+                                        type="hidden"
+                                        value="CfDJ8LMSxImHrd9LsbR6UuGQwaith2HNVor6N3nkbUykjrNO64WBFq_JdmYhRR7sbdTkxVQZj1VCIz0eqb5BTRvLOHT7bsSpQdXQlACRZfRVx1DNTzSNM_Y4BeAA3vg8oh3AffLklSM2vNKLg7cP6RSunPQ"
+                                    />
+                                </form>
+                            </li>
+                        </ul>
+                        <br />
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link text-dark" href="/Identity/Account/Login">Login</a></li>
+                        </ul>
+                        <ul class="navbar-nav flex-grow-1"></ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                <div class="row" style="padding-top: 150px;">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 ImageBodysettings">
+                        <section>
+                            <form id="account" method="post">
+                                <h4 class="text-center">USER LOGIN</h4>
+                                <hr />
+                                <div class="text-danger validation-summary-valid" data-valmsg-summary="true">
+                                    <ul>
+                                        <li style="display: none;"></li>
+                                    </ul>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input_Username">Username</label>
+                                    <input class="form-control" type="text" data-val="true" data-val-required="The Username field is required." id="Input_Username" name="Input.Username" value="" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="Input.Username" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Input_Password">Password</label> <input class="form-control" type="password" data-val="true" data-val-required="The Password field is required." id="Input_Password" name="Input.Password" />
+                                    <span class="text-danger field-validation-valid" data-valmsg-for="Input.Password" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label for="Input_RememberMe">
+                                            <input type="checkbox" data-val="true" data-val-required="The Remember me? field is required." id="Input_RememberMe" name="Input.RememberMe" value="true" /> Remember me?
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group"><button type="submit" class="btn btn-primary">Log in</button></div>
+                                <div class="form-group text-center"><p>Having trouble logging in? Can’t submit the form? Please contact your immediate supervisor before coming to work.</p></div>
+                                <input
+                                    name="__RequestVerificationToken"
+                                    type="hidden"
+                                    value="CfDJ8LMSxImHrd9LsbR6UuGQwaith2HNVor6N3nkbUykjrNO64WBFq_JdmYhRR7sbdTkxVQZj1VCIz0eqb5BTRvLOHT7bsSpQdXQlACRZfRVx1DNTzSNM_Y4BeAA3vg8oh3AffLklSM2vNKLg7cP6RSunPQ"
+                                />
+                                <input name="Input.RememberMe" type="hidden" value="false" />
+                            </form>
+                        </section>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="modal fade" id="ReportModal" role="dialog">
+                    <div class="modal-dialog" role="document" style="max-width: 700px !important;">
+                        <div class="modal-content" style="width: 700px;">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Submission Details</h5>
+                                <button id="closeModalBtn" type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body"></div>
+                            <div class="modal-footer"><button type="button" class="close" data-dismiss="modal">Close</button></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>&copy; 2022 - covidQuestionnaire - <a href="/Home/Privacy">Privacy</a></p>
+                    </div>
+                    <div class="col-6 text-right">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Language/SetLanguage?returnUrl=~%2FIdentity%2FAccount%2FLogin">
+                                    <select
+                                        style="width: 70px; margin-left: 5px;"
+                                        name="culture"
+                                        onchange="this.form.submit();"
+                                        data-val="true"
+                                        data-val-required="The Name field is required."
+                                        id="requestCulture_RequestCulture_UICulture_Name"
+                                    >
+                                        <option value="ar-SA">Arabic (Saudi Arabia)</option>
+                                        <option selected="selected" value="en-US">English (United States)</option>
+                                        <option value="es-ES">Spanish (Spain, International Sort)</option>
+                                        <option value="fa-IR">Persian (Iran)</option>
+                                        <option value="fil-PH">Filipino (Philippines)</option>
+                                        <option value="fr-FR">French (France)</option>
+                                        <option value="ru-RU">Russian (Russia)</option>
+                                        <option value="zh-CN">Chinese (Simplified, China)</option>
+                                    </select>
+                                    <input
+                                        name="__RequestVerificationToken"
+                                        type="hidden"
+                                        value="CfDJ8LMSxImHrd9LsbR6UuGQwaith2HNVor6N3nkbUykjrNO64WBFq_JdmYhRR7sbdTkxVQZj1VCIz0eqb5BTRvLOHT7bsSpQdXQlACRZfRVx1DNTzSNM_Y4BeAA3vg8oh3AffLklSM2vNKLg7cP6RSunPQ"
+                                    />
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js" crossorigin="anonymous" integrity="sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o+ok+t/SAKlL5mvXLr0OXNi1Hp"></script>
+        <script>
+            (window.jQuery && window.jQuery.validator) ||
+                document.write(
+                    "\u003Cscript src=\u0022/Identity/lib/jquery-validation/dist/jquery.validate.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-rZfj/ogBloos6wzLGpPkkOr/gpkBNLZ6b6yLy4o\u002Bok\u002Bt/SAKlL5mvXLr0OXNi1Hp\u0022\u003E\u003C/script\u003E"
+                );
+        </script>
+        <script
+            src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.9/jquery.validate.unobtrusive.min.js"
+            crossorigin="anonymous"
+            integrity="sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds"
+        ></script>
+        <script>
+            (window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive) ||
+                document.write(
+                    "\u003Cscript src=\u0022/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-ifv0TYDWxBHzvAk2Z0n8R434FL1Rlv/Av18DXE43N/1rvHyOG4izKst0f2iSLdds\u0022\u003E\u003C/script\u003E"
+                );
+        </script>
+    </body>
+</html>
+<script>
+    $(document).ready(function () { $('.dropdown-toggle').dropdown(); }); $(document).ready(function () { //Hide submit buttton on page load $("#submitBtn").hide(); $('input[type="checkbox"]#NoToAll').click(function () { var qCnt = $('#QuestionsCount').val(); if ($(this).prop("checked") == true) { for (var i = 0; i < qCnt; i++) { id = `Questions_${i}__AnswerText[value='No']`; $("#" + id).prop("checked", true); } } else if ($(this).prop("checked") == false) { for (var i = 0; i < qCnt; i++) { id = `Questions_${i}__AnswerText[value='No']`; $("#" + id).prop("checked", false); } } }); $('input[type="checkbox"]#certification').click(function () { if ($(this).prop("checked") == true) { $("#submitBtn").show(); } else if ($(this).prop("checked") == false) { $("#submitBtn").hide(); } }); });
+</script>

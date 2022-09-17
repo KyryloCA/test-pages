@@ -1,0 +1,20 @@
+.test{
+				font-size: 200%;
+				text-transform: uppercase;
+}
+body{
+				background-color: #e9b0df;
+}
+.selable{
+				font-size: 20px;
+}
+.opti{
+				font-size: 15px;
+}
+.footer{
+				width: 100%;
+				background-color: #ff884b;
+}
+.padi{
+	padding:10px; 
+}

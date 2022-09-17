@@ -1,0 +1,57 @@
+h1, h2, h3, td, th {
+  color:green;
+}
+
+
+body{
+background-color: black ;
+}
+
+table{
+  border:green 5px solid;
+border-collapse: collapse;
+
+  }
+
+  td,th{
+    border:green 1px solid;
+  }
+
+
+
+a{
+  text-decoration: none;
+color:green;
+}
+a:visited{
+color:grey;
+}
+a:hover{
+  color:yellow;
+}
+.menu {
+  font-size: 150%;
+
+}
+p{
+  color:white;
+}
+.raitingconteiner{
+  display: inline-block;
+}
+.tableheader{
+  text-align: center;
+  color:green;
+  width: 100%;
+
+}
+li{
+  color:green;
+  list-style-type: none;
+}
+li::before{
+  content:"-= ";
+}
+li::after{
+  content:" =-";
+}

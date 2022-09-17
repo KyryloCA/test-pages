@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Заметки</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="HTMLnotes.ico">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="list menu">
+        <li class="item"> <a href="../index.html">Main</a></li>
+        <li class="item">feature 1</li>
+        <li class="item"> Feature 2</li>
+        <li class="item"> <a href="kirill-opyat25\HTMLnotes.html">HTMLnotes</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Заметки  -->
+  <div>
+
+    <h3>Полезные сайты</h3>
+    <ul>
+      <li> <a href="https://www.utf8icons.com" target="_blank">Сайт с иконками UTF-8</a> </li>
+      <li> <a href="https://crop-circle.imageonline.co/" target="_blank">Сайт по округлению изображений в формат
+          .png</a> </li>
+      <li><a href="https://emojipedia.org/">Вставка смайликов emoji</a></li>
+      <li><a href="https://colorhunt.co/">Сочетаемость цветов для сайта</a> </li>
+      <li><a href="https://unsplash.com">Бесплатные картинки</a></li>
+      <li> <a href="https://www.w3schools.com">w3schools.com</a> </li>
+      <li> <a href="https://www.favicon.cc/">Создание иконок онлайн</a> </li>
+      <li><a href="https://fonts.google.com/">гугл шрифты</a></li>
+      <li><a href="https://www.w3schools.com/cssref/css_animatable.asp">Анимации в CSS. Оч круто!</a></li>
+    </ul>
+    <h3>О шапке сайта</h3>
+    <p>Можно вставлять иконки в теге link с расширением .ico. Можно периименовывать .jpg to .ico</p>
+    <p>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt - это позволяет различным усторойствам
+      подгонять ширину страницы</p>
+
+    <h3>Перечень известных тегов</h3>
+    <ul>
+      <li>head - шапка сайта</li>
+      <li>h1...6 - заголовок. Всегда жирный текст</li>
+      <li> "em" или "i" - курсив. "em" характеризует смысловое ударение. Когда "i" просто текст курсивом</li>
+      <li>head - заголовок</li>
+
+      <li>ul/li - ненумерованный список</li>
+      <ul>
+        <li>"ul" type="square" - квадратные точки</li>
+        <li> Замена маркеров списка на символы в CSS: <br>
+          li{
+          color:green;
+          list-style-type: none;
+          }<br>
+          li::before{
+          content:"-= ";
+          }<br>
+          li::after{
+          content:" =-";
+          }
+        </li>
+      </ul>
+      <li>ol/li - нумерованный список</li>
+      <ul>
+        <li>"ol" style="A" - "A,B,C"</li>
+        <li>"ol" style="a" - "a,b,c"</li>
+        <li>"ol" style="I" - "I,II,III"</li>
+        <li>"ol" style="i" - "i,ii,iii"</li>
+      </ul>
+
+      <li>dl/dt+dd - список определений</li>
+      <dl class="">
+        <dt>Колбаса Московская</dt>
+        <dd>
+          Самая вкусная колбаса, которую можно купить везде! Но дорого :()
+        </dd>
+      </dl>
+      <li>br - перенос каретки. Тег не закрывается</li>
+    </ul>
+    <p>А эти символы надо экранировать везде</p>
+    <ul>
+      <li> <i> <b>&amp</b> пишется вот так &ampamp ;</li>
+      <li><b>&lt</b> пишется вот так &amplt;</li>
+      <li><b>&gt</b> пишется вот так &ampgt;</li>
+      <li><b>"</b> пишется вот так &ampquot;</li>
+      <li><b>' </b> пишется вот так &amp#39;</li>
+      </i>
+    </ul>
+    <p>Работа с таблицами</p>
+    <ul>
+      <li>Таблица состоит из следующих элементов:
+        <ul>
+          <li>table - таблица</li>
+          <li>th - заголовок колонок таблицы</li>
+          <li>tr - ряд таблицы</li>
+          <li>td - данные таблицы</li>
+          <li>border-collapse: collapse; - свойство CSS, которое можно назначить таблице чтобы все линии стали
+            одинарными</li>
+          <li>border: 5px solid #ffabe1; - описание свойств таблицы и ее компонентов</li>
+
+        </ul>
+      </li>
+
+    </ul>
+
+    <p>Работа с изображениями</p>
+    <ul>
+      <li>img src="IMG/cat2.avif" alt="Cat2" width="300" - ширину указывать не обязательно. Если файлы лежат каталогом
+        выше, то ссылаться надо используя значек (../) родительского каталога src="../IMG/cat2.avif" </li>
+    </ul>
+    <p>Ссылки</p>
+    <ul>
+      <li>&lta href="Catwebsite.html"&gtСсылка на котиков&lt/a&gt - ссылка на страницу открывающуюся в текущей вкладке
+      </li>
+      <li>&lta href="mailto:joe@example.com?subject=feedback" target="_blank"&gtНаписать соседу&lt/a&gt - ссылка на
+        почту открывающаяся в новой вкладке</li>
+    </ul>
+    <!-- CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS CSS -->
+
+    <p><b>Этот раздел посвящен CSS</b></p>
+    <ul>Селекторы тегов
+      <li>селектор класса - <i>class="test"</i></li>
+      <li>селектор ID - <i>d="test"</i></li>
+    </ul>
+    <ul>Внутри HTML стили можно писать в атрибутах вот так:
+      <li>
+        <ul>
+          <li>style="padding-left:48px;"</li>
+          <li>style="width: 100%; display:flex;"</li>
+          <li></li>
+        </ul>
+      </li>
+      <li>Идентификаторы можно перечислять через запятую. "h1, h2, p"</li>
+      <li>Высота шрифта (font-size: ###;) определяется 4-мя способами
+        <ul>
+          <li> По ключевым словам
+            <ul>
+              <li>medium: базовый размер шрифта браузера (16 пикселей)</li>
+              <li>small: 13 пикселей</li>
+              <li>x-small: 10 пикселей</li>
+              <li>xx-small: 9 пикселей</li>
+              <li>large: 18 пикселей</li>
+              <li>x-large: 24 пикселя</li>
+              <li>xx-large: 32 пикселя</li>
+
+            </ul>
+          </li>
+          <li>В процентах от базового шрифта
+            <ul>
+              <li>font-size: 150%;</li>
+            </ul>
+          </li>
+          <li>В пикселах
+            <ul>
+              <li>
+                font-size: 10px;
+              </li>
+            </ul>
+          </li>
+          <li>В единицах "em". Где 1em = 100%
+            <ul>
+              <li>font-size: .5em;</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul> Borders
+      <li>border-style: solid;</li>
+      <li> <img src="borders.png" alt="borders" width="500px"> </li>
+    </ul>
+    <ul> FLEXBOX
+      <li>Все предметы располагаются вдоль главной оси. "Flex-direction" вращает главную ось. По умолчанию она
+        направлена слева направо</li>
+    </ul>
+    <p> <b>Настройки редактора Atom</b> </p>
+    <ul>
+      <li>settings-editor-invisibles-show indent guide - Вертикальные линии</li>
+      <li>Packages-wrap-setting-enable/disable - включить/выключить вертикальную линию в 80 символов</li>
+      <li>полезные модули </li>
+      <ul>
+        <li>pigments</li>
+        <li>minimap</li>
+        <li>minimap-lens</li>
+        <li>minimap-pigments</li>
+      </ul>
+    </ul>
+  </div>
+
+
+</body>
+
+</html>

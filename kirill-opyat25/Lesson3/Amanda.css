@@ -1,0 +1,31 @@
+body{
+  background-color: #e4f9f5;
+  color:#52616b;
+  font size:18px;
+}
+hr{
+border: 5px solid #fae3d9;
+}
+table{
+  background-color: #ffb6b9;
+  border:#52616b 5px solid;
+  border-collapse: collapse;
+}
+th{
+  border:#52616b 3px solid;
+}
+td{
+border: #52616b 3px solid;
+}
+h1{
+color:#40514e;
+font-size: 40px;
+}
+h3{
+color: #40514e;
+font-size: 30px;
+}
+/* a, p{
+  color:#52616b;
+  font size:18px;
+} */

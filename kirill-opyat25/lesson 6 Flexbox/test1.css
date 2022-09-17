@@ -1,0 +1,69 @@
+.item{
+				width: 100px;
+				height: 100px;
+				border: 10px solid orange;
+				font-size: 40px;
+				color: white;
+
+}
+.item8{
+	background-color: #a4ebf3;
+/* width: 100px;
+height: 100px; */
+font-size: 30px;
+border: 1px solid black;
+}
+.one{
+				background-color: blue;
+}
+.two{
+				background-color: yellow;
+}
+.three{
+				background-color: pink;
+}
+.four{
+				background-color: grey;
+}
+.parent{
+border: 1px solid black;
+				display: flex;
+				flex-direction: column-reverse;
+				height: 100vh;
+				margin: 0;
+}
+.parent-row{
+border: 1px solid black;
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-evenly;
+}
+body{
+	margin: 0;
+}
+.test8{
+	height: 600px;
+	display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.parentflex{
+	display: flex;
+	margin: 0;
+	height: 100vh;
+	border: 1px solid blue;
+	align-items: stretch;
+
+}
+.itemflex1{
+	width: max-content;
+
+}
+.itemflex2{
+	flex: 1 1 100px;
+}
+
+.itemflex3{
+	flex: 1 1 100px;
+}
