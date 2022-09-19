@@ -7,20 +7,25 @@ h1 {
 .fluid {
 
     background-image: url("img/pivdennoye.jpg");
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
+    filter: grayscale(100%);
+    filter: sepia(80%);
+    position: absolute;
 }
 
 .fluid-1 {
 
     background-image: url("img/pivdennoye.jpg");
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
+    position: absolute;
 
 }
 
@@ -40,16 +45,17 @@ h1 {
     width: 1000px;
     box-sizing: border-box;
 
-    outline: 2px dashed blueviolet;
+    /* outline: 2px dashed blueviolet; */
     margin: auto;
 }
 
 .fluid .container H1 {
+    -webkit-text-stroke: 5px black;
     font-family: 'Russo One', sans-serif;
     text-transform: uppercase;
     font-size: 150px;
     text-align: center;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(49, 0, 128, 0.993);
     padding: 20px;
 
 }
@@ -61,4 +67,8 @@ h1 {
     text-align: center;
     color: rgba(255, 255, 255, 0);
     padding: 20px;
+}
+
+main {
+    position: relative;
 }
