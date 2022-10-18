@@ -30,7 +30,15 @@
                     href="https://www.figma.com/file/v4a1RlVKsP2dj9mNOnM8Jr/Web-Studio-(Version-2.1)-(Copy)?node-id=1%3A293">Макети
                     завдання</a></li>
             <li class="item"></li>
+            <li class="item"><a href="./java-header/index.html">Динамічна шапка</a></li>
         </ul>
+        <script>
+            const { height: pageHeaderHeight } = document
+                .querySelector(".page-header")
+                .getBoundingClientRect();
+            document.body.style.paddingTop = `${pageHeaderHeight}px`;
+        </script>
+
     </main>
     <footer>
 
